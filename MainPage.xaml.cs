@@ -12,7 +12,7 @@
         private void PlayAgainButton_Clicked(object sender, EventArgs e)
         {
             AnimalButtons.IsVisible = true;
-            PlayAgainButton.IsVisible = false;
+            PlayAgainButton.IsVisible = true;
 
             List<string> animalEmoji = [
                 "🦁", "🦁",
